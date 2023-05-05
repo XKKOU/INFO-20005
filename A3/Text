@@ -51,7 +51,37 @@ Quoted prices include-Metro Delivery, Tuning and Pickup.
 Bump in at least 90 minutes before your event 
 Late night pickup is an additional $100
 
+FONTTYPE
 
+Unlock (TITLE)
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unlock&display=swap" rel="stylesheet">
+
+font-family: 'Unlock', cursive;
+
+
+Abril Fatface (SUB-TITLE)
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Unlock&display=swap" rel="stylesheet">
+
+font-family: 'Abril Fatface', cursive;
+
+Oswald (HEADING)
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@700&family=Unlock&display=swap" rel="stylesheet">
+
+font-family: 'Oswald', sans-serif;
+
+
+Montserrat (TEXT)
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@200&family=Oswald:wght@700&family=Unlock&display=swap" rel="stylesheet">
+
+font-family: 'Montserrat', sans-serif;
 
 
 

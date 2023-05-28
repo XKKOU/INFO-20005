@@ -29,7 +29,7 @@ body{
 }
 
 nav{
-     display: flex;
+    display: flex;
     flex-direction: row; 
     align-items: center;
     padding: 5px 20px 0 20px; 
@@ -53,7 +53,7 @@ a{
 }
 
 .logo_pic{
-    size: 6px;
+    width: 55px;
 }
 
 .cluster {
@@ -78,7 +78,7 @@ a{
 }
 .sidebar{
     flex-basis: 40rem;
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
 .not-sidebar{
@@ -105,6 +105,7 @@ a{
     margin-top: 1rem;
 }
 
+
 /* Button section*/
 .btn-primary{
     display: inline-block;
@@ -115,6 +116,11 @@ a{
     border-radius: 15px;
     
 }
+.btn-primary:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
 
 /* Text section*/
 h1,a{
@@ -125,10 +131,154 @@ h1{
     text-align: left;
     line-height: 110%;
     font-size:  58px;
-    padding-bottom: 15%;
 
 }
 
 h2, p {
     font-family: var(--text);
+}
+
+
+.p1{
+    margin-top: 3px;
+}
+
+
+
+/*Feature section*/
+.feature{
+    background-position: center;
+    width: 90%;
+    /*padding: 20px 20px 0px 20px;*/
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--Beige);
+    border-radius: 15px;
+
+
+}
+.feature-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.feapic{
+    width: 50px;
+}
+
+section > h2{
+    font-family: var(--heading);
+    font-weight: bold;
+    font-size: larger;
+    color: var(--black);
+}
+
+
+/*Our product section*/
+.ourpro-P {
+    text-align: center;
+    padding: 60px;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+  /* Contact Part*/
+  @media (max-width: 320px ) {
+    .contact-section {
+    padding:1em 0;
+    }
+  }
+
+  .contact-section{
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contact-section h3 {
+    font-size: 3em;
+    font-family: var(--title);
+    font-weight: 600;
+    margin-left: 0.2em;
+    color: var(--gold);
+  }
+
+  .contact-section h4 {
+    color:var(--gold);
+    margin-top: 0;
+    font-size: 1.8em;
+    font-family: var(--text);
+    margin-bottom: 0.5em;
+    font-weight: 600;
+  }
+
+  
+element.style {
+    visibility: visible;
+    animation-delay: 0.4s;
+    animation-name: fadeInLeft;
+}
+
+@media (max-width: 991px){
+.contact-grid {
+    float: left;
+    width: 50%;
+}
+}
+
+.col-md-6{
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.contact-grid1 input[type="text"], .contact-grid1 textarea {
+    width: 100%;
+    color:var(--darkgrey);
+    outline: none;
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.contact-grid1 input[type="submit"] {
+    font-size: 1em;
+    background:var(--gold);
+    padding: 0.8em 2em;
+    color: #fff;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease-out;
 }
